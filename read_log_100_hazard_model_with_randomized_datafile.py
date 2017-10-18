@@ -5,19 +5,7 @@ Created by Julia Poncela, on Sept. 2016
 
 '''
 
-import datetime as dt
-import csv
-import pickle
-import histogram_bins_increasing
-import histograma_gral
-import numpy 
-import networkx as nx
-import random
-import sys
-import datetime as dt
-import Herfindahl_index
-import itertools
-import random
+import numpy
 
 def main():
 
@@ -84,7 +72,7 @@ def main():
 
 
     ####### original file :
-    name0="../Results/log_hazard_model_random.log"
+    name0="../log_hazard_model_random1000partial.log"#../Results/log_hazard_model_random.log"
     file_real=open(name0,'r')
     list_lines=file_real.readlines()
     
